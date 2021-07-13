@@ -112,9 +112,14 @@ text-decoration: none;
  /* ----------------
   Header Main End
   ---------- */
-/* ---------
+
+
+  /* ---------
 Main Start 
 --------------- */
+
+
+/* Section 1 Start  */
 .players{
     display: grid;
     grid-template-columns: repeat(3, 3fr);
@@ -134,5 +139,72 @@ Main Start
     margin-bottom: 27px;
     border: 15px solid whitesmoke;
     background-color: whitesmoke;
+    
     box-shadow:10px 10px 20px rgb(212, 212, 212) ;
 }
+.player p{
+    color: #6C6C6C;
+}
+/* Section 1 End  */
+
+/* Section 2 Start  */
+.container{
+   font-family: 'Poppins', sans-serif;
+   margin-right: 156px;
+   margin-left: 132px;
+}
+.highlights-img img{
+    width: 567px;
+    height: 427px;
+}
+.highlights-container{
+    display: flex;
+    
+   
+}
+.Highlights{
+    width: 50%;
+    padding-left: 66px;
+    margin-top: 165px;
+}
+.Highlights h1{
+    font-size: 48px;
+    margin-bottom: 0;
+    margin-top: 0;
+    
+     
+}
+.Highlights p{
+    font-size: 16px;
+    color: #6C6C6C;
+}
+.Highlights a{
+    
+    margin-left: 0;
+    text-decoration: none;
+}
+
+.Highlights img{
+   width: 100%;
+   width: 100%; 
+   padding-left: 60px;
+}
+
+
+/* Section 2 End  */
+
+/* footer Start  */
+
+.footer-section img{
+    width: 480px;
+    height: 110px;
+    margin-top: 158px;
+   
+    
+}
+.footer-div{
+    padding-left: 475px;
+   
+}
+
+/* footer End  */
