@@ -333,6 +333,10 @@ legend{
 
 /* footer End  */
 
+/* Media Quary */
+
+
+/* Mobile Divice */
 @media only screen and (max-width:688px)  {
       .first-header{
           height: 850px;
@@ -438,6 +442,119 @@ font-size: 20px;
     height: 50%;
     padding-bottom: 20px;
 }
+}
+
+/* --------------
+Tablet Divice
+---------- */
+@media only screen and (min-width:688px) and (max-width: 992px) {
+    .first-header{
+        height: 800px;
+        width: 600px;
+    }
+  .header-all-ancor a{
+     
+  display: none;
+  }
+  .header-login{
+     padding-left: 10px;
+      margin: 0px;
+  }
+  .header-title{
+      margin-top: 20px;
+      margin-left: 50px;
+  }
+  .header-button{
+      margin-left: 50px;
+  }
+  .image-header {
+     flex-direction: column;
+     margin-left: -300px;
+     margin-top: 280px;
+     width: 350px;
+      
+  }
+  .first-container{
+      width: 100%;
+      
+  }
+  .players{
+      
+      grid-template-columns: repeat(2, 1fr);
+       
+  }
+  .player{
+      flex-direction: column;
+      align-items: center;
+      
+  }
+  .container{
+      margin: 10%;
+      padding: 0%;
+      width: 100%;
+      padding-left: 100px;  
+            
+      align-items: center;
+      
+  }
+  .highlights-container{
+      display: block;
+      width: 100%;
+      margin-top: 100px;
+     
+  }
+  .Highlights img{
+      width: 500px;
+      margin: -100px;
+      padding-left: 100px;
+      padding-bottom: 100px;
+      
+      
+  }
+  .Highlights{
+      margin-bottom: -40px;
+  }
+  .Highlights h1{
+      font-size: 45px;
+  }
+  .Highlights p{
+      font-size: 25px;
+  }
+.quez-form{
+  margin-left: 200px;
+  width: 80%;
+  height: 100%;
+
+
+}
+.quez-form legend{
+font-size: 30px;
+}
+.sponsors{
+  width: 80%;
+  height: 100%;
+  margin-left: 120px;
+ 
+}
+.Sponsor-taxt{
+  font-size:20px;
+  margin-left: 0px;
+}
+.sponsors-logo{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+      
+}
+.footar-section{
+width: 100%;
+margin-left: 90px;
+
+}
+.footar-image img{
+  width: 70%;
+  height: 70%;
+  padding-bottom: 40px;
+}  
 }
 
 /* Medea Quare End ------------------ */
