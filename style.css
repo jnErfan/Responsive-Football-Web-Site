@@ -333,11 +333,54 @@ legend{
 
 /* footer End  */
 
-@media only screen and (max-width: 688px ;) {
- 
-.players{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-}
+@media only screen and (max-width:688px)  {
+      
+    .container-header{
+        display: flex;
+       margin-left: 0;
+        flex-direction: column;
+        display: none;
+    }
+    
+    .first-container{
+        width: 100%;
+        
+    }
+    .players{
+        width: 100%;
+         grid-template-columns: repeat(1, 1fr);
+         
+    }
+    .player{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .container{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        padding-left: 100px;  
+              
+        align-items: center;
+        
+    }
+    .highlights-container{
+        display: block;
+        width: 100%;
+        margin-top: 100px;
+       
+    }
+    .Highlights img{
+        width: 300px;
+        margin: -100px;
+        
+    }
+    .Highlights h1{
+        font-size: 25px;
+    }
+
 
 }
+
+/* Medea Quare End ------------------ */
