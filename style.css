@@ -379,8 +379,26 @@ legend{
     .Highlights h1{
         font-size: 25px;
     }
+.quez-form{
+    margin-left: 100px;
+    width: 100%;
+    height: 100%;
 
 
+}
+.sponsors{
+    width: 100%;
+    height: 100%;
+    margin-left: 120px;
+}
+.Sponsor-taxt{
+    margin-left: -150px;
+}
+.sponsors-logo{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+        
+}
 }
 
 /* Medea Quare End ------------------ */
