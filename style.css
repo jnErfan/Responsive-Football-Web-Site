@@ -334,14 +334,32 @@ legend{
 /* footer End  */
 
 @media only screen and (max-width:688px)  {
-      
-    .container-header{
-        display: flex;
-       margin-left: 0;
-        flex-direction: column;
-        display: none;
+      .first-header{
+          height: 850px;
+          width: 400px;
+      }
+    .header-all-ancor a{
+       
+    display: none;
     }
-    
+    .header-login{
+       padding-left: 10px;
+        margin: 0px;
+    }
+    .header-title{
+        margin-top: 20px;
+        margin-left: -20px;
+    }
+    .header-button{
+        margin-left: -20px;
+    }
+    .image-header {
+       flex-direction: column;
+       margin-left: -400px;
+       margin-top: 350px;
+       width: 350px;
+        
+    }
     .first-container{
         width: 100%;
         
