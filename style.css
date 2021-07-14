@@ -374,30 +374,51 @@ legend{
     .Highlights img{
         width: 300px;
         margin: -100px;
+        padding-left: 100px;
+        padding-bottom: 100px;
         
+        
+    }
+    .Highlights{
+        margin-bottom: -40px;
     }
     .Highlights h1{
         font-size: 25px;
     }
 .quez-form{
     margin-left: 100px;
-    width: 100%;
+    width: 90%;
     height: 100%;
 
 
+}
+.quez-form legend{
+font-size: 20px;
 }
 .sponsors{
-    width: 100%;
+    width: 65%;
     height: 100%;
     margin-left: 120px;
+   
 }
 .Sponsor-taxt{
-    margin-left: -150px;
+    font-size:20px;
+    margin-left: 0px;
 }
 .sponsors-logo{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
         
+}
+.footar-section{
+  width: 100%;
+  margin-left: 90px;
+ 
+}
+.footar-image img{
+    width: 50%;
+    height: 50%;
+    padding-bottom: 20px;
 }
 }
 
